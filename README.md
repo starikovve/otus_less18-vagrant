@@ -39,3 +39,35 @@ Vagrant_Расширенная настройка дисков и сетей
 Скриншот вывода команды df -h с запущенной ВМ
 
 Скриншот с хостовой машины вывода команды netstat -tulpn | grep 8080 с запущенной ВМ
+
+Основные команды Vagrant:
+Bash
+
+Копировать код
+
+# Подключиться к ВМ по SSH
+vagrant ssh
+
+# Проверить статус ВМ
+vagrant status
+
+# Перезагрузить ВМ
+vagrant reload
+
+# Остановить ВМ
+vagrant halt
+
+# Удалить ВМ (с дисками)
+vagrant destroy
+
+# Применить provisioning повторно
+vagrant provision
+
+
+<img width="717" height="227" alt="image" src="https://github.com/user-attachments/assets/1a571b47-3a70-4b6a-957d-c1bd7a6e4841" />
+
+
+<img width="628" height="225" alt="image" src="https://github.com/user-attachments/assets/dcd6feeb-6b31-4991-a4a3-5c1c9b7483db" />
+
+
+
